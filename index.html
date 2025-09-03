@@ -1,0 +1,844 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+  <head>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/fabicon.png">
+  
+    <!-- Title -->
+    <title>Portiq: AI Portfolio Strategist</title>
+  
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+      content="Portiq is an AI-powered portfolio strategist that analyzes your crypto assets in real-time, recommends rebalancing strategies, and simulates outcomes — all via Telegram and Web.">
+  
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/vendor/fullPage.js/dist/jquery.fullpage.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/vendor/slick/slick.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/vendor/vegas/vegas.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/vendor/magnific-popup/dist/magnific-popup.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/vendor/themify-icons/css/themify-icons.css" type="text/css">
+  
+    <!-- Fonts -->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CMontserrat:200,300,400,500,700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+  
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css">
+  
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+  </head>
+
+  <body class="layout-wide">
+
+    <!-- Loader -->
+    <div class="loader bg-dark">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <div id="top"></div>
+
+    <!-- Site navigation -->
+  <nav
+    class="site-navbar site-navbar-transparent navbar navbar-expand-lg navbar-dark fixed-top bg-white shadow-light p-lg-4"
+    data-navbar-base="navbar-dark" data-navbar-toggled="navbar-light" data-navbar-scrolled="navbar-light">
+  
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/logo.png" class="navbar-brand-img" alt="Portiq Logo">
+    </a>
+  
+    <!-- Toggler -->
+    <button class="navbar-toggler-alternative" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-alternative-icon"></span>
+    </button>
+  
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+  
+      <!-- Navigation -->
+      <ul class="navbar-nav ml-auto knewave-regular" id="navigation">
+        <li class="nav-item active" data-menuanchor="home">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item" data-menuanchor="our-mission">
+          <a class="nav-link" href="#our-mission">Overview</a>
+        </li>
+        <li class="nav-item" data-menuanchor="what-we-do">
+          <a class="nav-link" href="#what-we-do">Tokenomics</a>
+        </li>
+        <li class="nav-item" data-menuanchor="our-solutions">
+          <a class="nav-link" href="#our-solutions">Roadmap</a>
+        </li>
+        <li class="nav-item" data-menuanchor="our-work">
+          <a class="nav-link" href="#our-work">How It Works</a>
+        </li>
+        <li class="nav-item" data-menuanchor="contact">
+          <a class="nav-link" href="#contact">$PTIQ Token</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://t.me/AI_PTIQ" target="_blank" title="Open Telegram Bot">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+        </li>
+      </ul>
+  
+    </div>
+  </nav>
+
+
+
+    <!-- Back To Top Button -->
+    <a href="#top" class="backtotop">
+      <span>Back To Top</span>
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Scroll progress -->
+    <div class="scroll-progress">
+      <div class="sp-left">
+        <div class="sp-inner"></div>
+        <div class="sp-inner progress"></div>
+      </div>
+      <div class="sp-right">
+        <div class="sp-inner"></div>
+        <div class="sp-inner progress"></div>
+      </div>
+    </div>
+
+    <!-- Fullpage content -->
+    <div class="ln-fullpage" data-navigation="true">
+
+      <!-- Section - Home -->
+      <section class="ln-section d-flex js-min-vh-100" data-anchor="home" data-tooltip="Home" data-ui="light"
+        data-navbar="navbar-dark">
+        <div class="overlay overlay-advanced">
+          <div class="overlay-inner bg-image-holder bg-cover bg-bottom-center">
+            <img src="assets/images/image-11.jpg" alt="background">
+          </div>
+          <div class="overlay-inner bg-dark opacity-70"></div>
+        </div>
+      
+        <div class="container align-self-center text-white">
+          <div class="row">
+            <div class="col-12 col-lg-9 col-xl-6">
+              <h1 class="mb-4 animated knewave-regular" data-animation="fadeInUp">
+                <img src="assets/images/font-1.png" style="width: 100%;">
+                Your AI Portfolio Strategist
+              </h1>
+      
+              <p class="mb-7 animated" data-animation="fadeInUp" data-animation-delay="200">
+                Portiq is an AI-powered crypto portfolio assistant that helps you analyze wallet distribution,
+                identify risk, and simulate rebalancing strategies in real time — directly from Telegram or web.
+                Say goodbye to static tracking. It's time to manage with intelligence, precision, and confidence.
+              </p>
+      
+              <a href="#" class="btn btn-white mr-3 scrollto animated knewave-regular" data-animation="fadeInUp"
+                data-animation-delay="400" style="background-color: #d40094; color: white; border-color: #d40094;">
+                Get Started
+              </a>
+      
+              <a href="https://portiq-2.gitbook.io/portiq-docs/" target="_blank"
+                class="btn btn-soft-white scrollto animated knewave-regular" data-animation="fadeInUp"
+                data-animation-delay="600" style="background-color: rgba(255,255,255,0.7)">
+                Read Docs
+              </a>
+            </div>
+      
+            <div class="col-12 col-lg-6 text-center">
+              <iframe src="https://portiq-azure.vercel.app"
+                style="width: 100%; height: 700px; border: none; border-radius: 50px; box-shadow: 0 0 15px rgba(0,0,0,0.3); margin-top: 20px;"
+                allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Section - Our mission -->
+      <section class="ln-section d-xl-flex" data-anchor="our-mission" data-tooltip="Our mission" data-ui="dark"
+        data-navbar="navbar-light"
+        style="display: flex; align-items: center; justify-content: center; min-height: 100vh; background: url('assets/images/image-555.jpg') no-repeat center center / cover; padding-top: 60px; padding-bottom: 60px;"
+         >
+        <div class="container align-self-xl-center"
+          style="display: flex; align-items: center; justify-content: center; flex-direction: column; max-width: 1200px; padding: 20px;">
+          <div class="row">
+            <div class="col-12 col-xl-6">
+              <h2 class="mb-4 animated knewave-regular" data-animation="fadeInUp" data-animation-delay="150" style="color: white;">Meet Portiq</h2>
+              <img src="assets/images/font.png" style="width: 100%;">
+              <div class="animated" data-animation="fadeInUp" data-animation-delay="150"
+                style="text-align: left; margin-top: 10px;">
+                <button onclick="prevSlide()"
+                  style="padding: 20px; margin-right: 10px; border: none; background-color: #008a35; color: white; border-radius: 100px; ">🐾
+                  </button>
+                    <button onclick="nextSlide()"
+                      style="padding: 20px; margin: 10px; border: none; background-color: #7e008a; color: white; border-radius: 100px; ">🐾</button>
+              </div>
+              <p id="slide-text" class="animated" data-animation="fadeInUp" data-animation-delay="150" style="color: white;"><strong>
+                Portiq is not just a portfolio tracker — it's your intelligent crypto strategist.
+                In a market full of noise and uncertainty, Portiq gives you clarity through real-time wallet analysis,
+                AI-powered rebalancing suggestions, and backtested simulations. It transforms passive tracking into active
+                decision-making.
+                With Portiq, you don’t react late — you act early, with confidence and precision.</strong>
+              </p>
+              
+            </div>
+            <div class="col-12 col-xl-6" style="position: relative;">
+              <div id="slider" style="overflow: hidden; border-radius: 10px;">
+                <img id="slide-image" src="assets/images/slide1.png" alt="Portiq Demo Slide"
+                  style="width: 100%; height: auto; transition: opacity 0.5s ease-in-out;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+    <section class="ln-section d-xl-flex" data-anchor="what-we-do" data-tooltip="What we do" data-ui="light"
+      data-navbar="navbar-dark">
+      <div class="overlay overlay-advanced">
+        <div class="overlay-inner bg-image-holder bg-cover bg-bottom-center">
+          <img src="assets/images/image-12.jpg" alt="background">
+        </div>
+        <div class="overlay-inner bg-dark opacity-70"></div>
+      </div>
+    
+      <div class="container align-self-xl-center">
+        <div class="row">
+          <div class="col-12 col-xl-5 mb-8 mb-xl-0"
+            style="background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0))">
+            <h2 class="animated mb-4 knewave-regular" data-animation="fadeInUp" style="color: white;">$PTIQ Token
+              Distribution</h2>
+            <h2 class="animated mb-4" data-animation="fadeInUp" style="color: white;"><strong>Intelligence. Action.
+                Incentive.</strong></h2>
+            <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="color: white;">
+              Portiq introduces an AI-powered token economy where your strategy and insight are rewarded.
+              From simulation-based leaderboards to premium automation access, the $PTIQ token fuels intelligent crypto
+              portfolio management.
+            </p>
+            <img src="assets/images/banner.png" style="max-width: 100%; height: auto; display: block;"
+              alt="Portiq Token Banner">
+            <h2 class="animated mb-4 knewave-regular" data-animation="fadeInUp" style="color: white;">"Smarter
+              Participation, Better Rewards."</h2>
+            <p class="animated" data-animation="fadeInUp" data-animation-delay="150" style="color: white;">
+              <strong>Strategic Utility</strong><br>
+              Unlock advanced rebalancing strategies, enable bot automations, and earn from top simulation performance.
+              $PTIQ is your gateway to smarter crypto control — not just speculation.
+            </p>
+          </div>
+    
+          <div class="col-12 col-xl-6 offset-xl-1">
+            <div class="row">
+              <!-- <img src="assets/images/banner-1.png" style="max-width: 100%; height: auto; display: block;"
+                alt="Portiq Token Distribution"> -->
+    
+              <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp">
+                <div class="icon-7x text-primary mb-4">
+                  <h1>35% PTIQ</h1>
+                </div>
+                <h3 class="h4 mb-0" style="color: white;">Ecosystem & Rewards</h3>
+                <span style="color: white;">Incentivizes real users through leaderboard rewards, airdrops, and staking
+                  missions.</span>
+              </div>
+    
+              <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="150">
+                <div class="icon-7x text-primary mb-4">
+                  <h1>20% PTIQ</h1>
+                </div>
+                <h3 class="h4 mb-0" style="color: white;">Team & Advisors</h3>
+                <span style="color: white;">Reserved with long-term vesting to support sustainable project growth and
+                  governance alignment.</span>
+              </div>
+    
+              <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="300">
+                <div class="icon-7x text-primary mb-4">
+                  <h1>15% PTIQ</h1>
+                </div>
+                <h3 class="h4 mb-0" style="color: white;">Private Sale</h3>
+                <span style="color: white;">Allocated to early backers and strategic investors with gradual unlocks over 12
+                  months.</span>
+              </div>
+    
+              <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="450">
+                <div class="icon-7x text-primary mb-4">
+                  <h1>10% PTIQ</h1>
+                </div>
+                <h3 class="h4 mb-0" style="color: white;">Public Sale</h3>
+                <span style="color: white;">Distributed via launchpads and public participation with immediate but limited
+                  liquidity.</span>
+              </div>
+    
+              <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="600">
+                <div class="icon-7x text-primary mb-4">
+                  <h1>8% PTIQ</h1>
+                </div>
+                <h3 class="h4 mb-0" style="color: white;">Liquidity & Market</h3>
+                <span style="color: white;">Supports CEX/DEX listings, AMM provisioning, and healthy trading
+                  environments.</span>
+              </div>
+    
+              <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="750">
+                <div class="icon-7x text-primary mb-4">
+                  <h1>7% PTIQ</h1>
+                </div>
+                <h3 class="h4 mb-0" style="color: white;">Treasury & Reserve</h3>
+                <span style="color: white;">Held for emergency funding, long-term ops, or governance-activated
+                  distributions.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+      <!-- Section - Our solutions -->
+      <section class="ln-section d-xl-flex" data-anchor="our-solutions" data-tooltip="Our solutions" data-ui="light"
+        data-navbar="navbar-dark">
+        <div class="overlay overlay-advanced">
+          <div class="overlay-inner bg-image-holder bg-cover">
+            <img src="assets/images/image-3.jpg" alt="background">
+          </div>
+          <div class="overlay-inner bg-dark opacity-50"></div>
+        </div>
+      
+        <div class="container align-self-xl-center text-white">
+          <div class="row mb-8">
+            <div class="col-12 col-xl-12">
+              <h2 class="mb-4 animated knewave-regular" data-animation="fadeInUp">Portiq Roadmap</h2>
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">
+                Portiq is building the future of intelligent crypto portfolio management through phased innovation.
+                From our Telegram-based MVP to governance-controlled automation, each step is engineered for long-term value
+                and intelligent user control.
+              </p>
+            </div>
+          </div>
+      
+          <div class="row">
+      
+            <!-- Phase 1 -->
+            <div class="col-12 col-lg-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="150"
+              style="background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0)); border-radius: 12px; padding: 20px;">
+              <h4>Phase 1<br>Q3–Q4 2025 – MVP Launch</h4>
+              <p class="mb-0">
+                <i class="fas fa-rocket"></i> Telegram Mini-App and Web Dashboard (Live Beta)<br>
+                <i class="fas fa-chart-line"></i> Real-time Wallet Analysis + Strategy Suggestions<br>
+                <i class="fas fa-play-circle"></i> Strategy Simulation (Backtesting) Module
+              </p>
+            </div>
+      
+            <!-- Phase 2 -->
+            <div class="col-12 col-lg-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="300"
+              style="background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5)); border-radius: 12px; padding: 20px;">
+              <h4>Phase 2<br>Q1 2026 – Token Launch & Utility Layer</h4>
+              <p class="mb-0">
+                <i class="fas fa-coins"></i> $PTIQ Token Launch (DEX + CEX Listing)<br>
+                <i class="fas fa-unlock-alt"></i> Premium Strategy Unlocks via Token Utility<br>
+                <i class="fas fa-gift"></i> Leaderboard-Based Reward Distribution (Simulation PnL)
+              </p>
+            </div>
+      
+            <!-- Phase 3 -->
+            <div class="col-12 col-lg-6 mb-8 mb-lg-0 animated" data-animation="fadeInUp" data-animation-delay="450"
+              style="background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0)); border-radius: 12px; padding: 20px;">
+              <h4>Phase 3<br>Q2–Q3 2026 – Ecosystem Expansion</h4>
+              <p class="mb-0">
+                <i class="fas fa-network-wired"></i> Multi-Chain Support (Polygon, Arbitrum, etc.)<br>
+                <i class="fas fa-sync-alt"></i> Auto-Execution Bots (API-based Strategy Execution)<br>
+                <i class="fas fa-clone"></i> Copy Portfolio Feature (Follow Top Users)
+              </p>
+            </div>
+      
+            <!-- Phase 4 -->
+            <div class="col-12 col-lg-6 animated" data-animation="fadeInUp" data-animation-delay="600"
+              style="background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5)); border-radius: 12px; padding: 20px;">
+              <h4>Phase 4<br>Q4 2026 – Governance & B2B Integration</h4>
+              <p class="mb-0">
+                <i class="fas fa-vote-yea"></i> On-Chain Governance for Treasury & Features<br>
+                <i class="fas fa-briefcase"></i> B2B White-Label APIs for Web3 Funds & DAOs<br>
+                <i class="fas fa-brain"></i> Real-Time Portfolio Risk Sensing Engine
+              </p>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Section - Our work -->
+      <section class="ln-section d-xl-flex" data-anchor="our-work" data-tooltip="Our work" data-ui="light"
+        data-navbar="navbar-dark"
+        style="background: url('assets/images/image-4.jpg') no-repeat center center / cover; padding-top: 60px; padding-bottom: 60px;">
+      
+        <!-- Banner -->
+        <div class="col-12" style="width: 100%; text-align: center; margin-bottom: 40px;">
+          <img src="assets/images/banner-1.png" alt="Portiq Banner"
+            style="max-width: 100%; height: auto; display: block; border-radius: 12px;">
+        </div>
+      
+        <!-- Content Section -->
+        <div class="container align-self-xl-center"
+          style="color: white; background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.5));">
+          <div class="row mb-8">
+      
+            <!-- Strategy Flow -->
+            <div class="col-12 col-xl-6">
+              <h2 class="mb-4 animated knewave-regular" data-animation="fadeInUp"><br>The Portiq Strategy Flow</h2>
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">
+                Portiq transforms user insights into actionable strategy layers.
+                Each week, users submit their custom crypto portfolio strategies based on real-time market conditions and AI
+                signal prompts.
+  <br><br>
+                Strategies are then simulated on-chain using our backtesting engine.
+                Performance, creativity, and risk-adjusted returns are scored — powering the evolution of the Portiq AI
+                system.
+                <br><br>
+                Top-performing strategies are publicly ranked, rewarded in $PTIQ, and may be featured in premium vaults or
+                shared modules.
+              </p>
+            </div>
+      
+            <!-- Weekly Leaderboard -->
+            <div class="col-12 col-xl-6">
+              <h2 class="mb-4 animated knewave-regular" data-animation="fadeInUp"><br>How to Use Portiq (3 Steps)</h2>
+            
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="100">
+                <strong>1) Connect & Analyze</strong><br>
+                Connect your wallet on Web or Telegram. Portiq auto-detects your assets and shows chain/token weights,
+                concentration, and risk signals.
+              </p>
+            
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="200">
+                <strong>2) Choose Strategy & Simulate</strong><br>
+                Pick a rebalancing strategy (e.g., BTC/ETH/Alt/Stable mix) and run a backtest. Compare outcomes to find the best
+                risk-adjusted setup.
+              </p>
+            
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="300">
+                <strong>3) Execute or Set Alerts</strong><br>
+                Apply the strategy (when available) or enable alerts for threshold changes and optimal rebalance moments. Track
+                results and iterate.
+              </p>
+            
+              <div class="mt-4 animated" data-animation="fadeInUp" data-animation-delay="400">
+                <a href="https://portiq-azure.vercel.app" target="_blank" class="btn btn-primary knewave-regular mr-2">Open App</a>
+                <a href="https://portiq-2.gitbook.io/portiq-docs/" target="_blank" class="btn btn-soft-white knewave-regular">Read
+                  Docs</a>
+              </div>
+            </div>
+
+      
+          </div>
+        </div>
+      </section>
+
+
+      <section class="ln-section d-xl-flex bg-light" data-anchor="contact" data-tooltip="Contact" data-ui="dark"
+        data-navbar="navbar-light"
+        style="background: url('assets/images/image-5.jpg') no-repeat center center / cover; padding-top: 60px; padding-bottom: 60px;">
+      
+        <div class="container align-self-center">
+          <div class="row mb-7">
+      
+            <!-- Contract Address -->
+            <div class="col-12 col-xl-6">
+              <h2 class="mb-4 animated" data-animation="fadeInUp" style="font-family: 'Orbitron', sans-serif; color: white;">$PTIQ Contract
+              </h2>
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <h4 id="contract-address" style="
+                      margin: 0;
+                      font-size: clamp(10px, 2vw, 16px); 
+                      word-wrap: break-word; color: white;
+                    ">
+                  0xd1AeC87EDE91e2bdb53033F56e9eAf476fafE64a
+                </h4>
+                <button onclick="copyToClipboard()" title="Copy to clipboard" style="
+                    width: 40px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50%;
+                    background-color: #4CAF50;
+                    color: white;
+                    font-size: 18px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: background-color 0.3s;
+                  ">
+                  <i class="fas fa-copy"></i>
+                </button>
+              </div>
+            </div>
+      
+            <!-- Channel Buttons -->
+            <div class="col-12 col-xl-6 d-flex justify-content-between flex-wrap" style="padding: 20px; gap: 12px;">
+      
+              <!-- Twitter -->
+              <a href="https://x.com/PortiqAI" target="_blank" class="btn" style="padding: 0;">
+                <div style="
+                    width: 50px;
+                    height: 50px;
+                    background-color: #850803;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 24px;
+                ">
+                  <i class="fab fa-twitter"></i>
+                </div>
+              </a>
+      
+              <!-- Telegram -->
+              <a href="https://t.me/PortiqCommunity" target="_blank" class="btn" style="padding: 0;">
+                <div style="
+                    width: 50px;
+                    height: 50px;
+                    background-color: #850803;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 24px;
+                ">
+                  <i class="fab fa-telegram-plane"></i>
+                </div>
+              </a>
+      
+              <!-- Whitepaper -->
+              <a href="https://portiq.gitbook.io/portiq-docs/" target="_blank" class="btn" style="padding: 0;">
+                <div style="
+                    width: 50px;
+                    height: 50px;
+                    background-color: #850803;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 24px;
+                ">
+                  <i class="fas fa-book"></i>
+                </div>
+              </a>
+      
+              <!-- BscScan -->
+              <a href="https://bscscan.com/token/0xd1aec87ede91e2bdb53033f56e9eaf476fafe64a" target="_blank" class="btn"
+                style="padding: 0;">
+                <div style="
+                    width: 50px;
+                    height: 50px;
+                    background-color: #850803;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 24px;
+                ">
+                  <i class="fas fa-search"></i>
+                </div>
+              </a>
+      
+              <!-- AI Dashboard -->
+              <a href="https://www.portiq.ai/dashboard" target="_blank" class="btn" style="padding: 0;">
+                <div style="
+                    width: 50px;
+                    height: 50px;
+                    background-color: #850803;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 24px;
+                ">
+                  <i class="fas fa-brain"></i>
+                </div>
+              </a>
+      
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="position-relative py-10 py-lg-12 bg-dark text-gray-500">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-xl-12 col-xxl-10 mx-auto text-center">
+    
+            <!-- Social Icons -->
+            <ul class="list-inline mb-5">
+              <!-- Telegram -->
+              <li class="list-inline-item mx-2">
+                <a class="btn btn-icon btn-text-secondary text-gray-400" href="https://t.me/AI_PTIQ" target="_blank"
+                  tabindex="0">
+                  <i class="fab fa-telegram btn-icon-inner"></i>
+                </a>
+              </li>
+    
+              <!-- Twitter -->
+              <li class="list-inline-item mx-2">
+                <a class="btn btn-icon btn-text-secondary text-gray-400" href="https://x.com/AI_PTIQ" target="_blank"
+                  tabindex="0">
+                  <i class="fab fa-twitter btn-icon-inner"></i>
+                </a>
+              </li>
+    
+              <!-- GitBook -->
+              <li class="list-inline-item mx-2">
+                <a class="btn btn-icon btn-text-secondary text-gray-400" href="https://portiq-2.gitbook.io/portiq-docs/"
+                  target="_blank" tabindex="0">
+                  <i class="fas fa-book btn-icon-inner"></i>
+                </a>
+              </li>
+            </ul>
+    
+            <!-- Copyright -->
+            <p class="mb-0">© 2025 <strong>PORTIQ</strong> — All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- footer end -->
+
+    <!-- Fullpage - Social icons -->
+    <nav class="ln-social-icons">
+      <ul class="mx-auto">
+        <!-- Telegram -->
+        <li>
+          <a href="https://t.me/AI_PTIQ" target="_blank">
+            <i class="fab fa-telegram"></i>
+          </a>
+        </li>
+    
+        <!-- Twitter -->
+        <li>
+          <a href="https://x.com/AI_PTIQ" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+    
+        <!-- GitBook -->
+        <li>
+          <a href="https://portiq-2.gitbook.io/portiq-docs/" target="_blank">
+            <i class="fas fa-book"></i>
+          </a>
+        </li>
+    
+        <!-- BSCScan -->
+        <li>
+          <a href="https://bscscan.com/token/0xd1aec87ede91e2bdb53033f56e9eaf476fafe64a" target="_blank">
+            <i class="fas fa-brain"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <!-- Fullpage - Copyright -->
+    <div class="ln-copyright text-right">
+      <p>© 2025 Portiq - All Rights Reserved</p>
+    </div>
+
+
+    <!-- Documentation Modal -->
+    <div class="modal fade" id="documentationModal" tabindex="-1" role="dialog" aria-labelledby="documentation"
+      aria-hidden="true">
+      <div class="modal-dialog modal-md modal-dialog-centered" role="document">
+        <div class="modal-content hover-parent">
+    
+          <!-- Close Button -->
+          <button type="button" class="btn btn-sm btn-icon btn-primary position-absolute top-0 right-0 mt-n3 mr-n3 zindex-1"
+            data-dismiss="modal" aria-hidden="true">
+            <i class="fas fa-times btn-icon-inner"></i>
+          </button>
+    
+          <!-- Modal Body -->
+          <div class="modal-body py-5 py-lg-8 px-5 px-lg-8 text-center">
+    
+            <div class="icon icon-boxed icon-7x rounded bg-soft-primary text-primary mb-8">
+              <i class="ti-wallet"></i>
+            </div>
+    
+            <h2 id="documentation" class="mb-3">Select Wallet to Connect</h2>
+            <p class="mb-8">
+              Connect your preferred wallet to start exploring Portiq's AI-powered trading ecosystem.<br>
+              Your agent is ready. Let’s sync up.
+            </p>
+    
+            <!-- MetaMask Wallet -->
+            <div class="wallet-icon metamask" onclick="connectMetaMask()" title="MetaMask">
+              <i class="fab fa-ethereum"></i>
+            </div>
+    
+            <!-- Phantom Wallet -->
+            <div class="wallet-icon phantom" onclick="connectPhantom()" title="Phantom Wallet">
+              <i class="fas fa-ghost"></i>
+            </div>
+    
+            <!-- Trust Wallet -->
+            <div class="wallet-icon trust-wallet" onclick="connectTrustWallet()" title="Trust Wallet">
+              <i class="fas fa-wallet"></i>
+            </div>
+    
+            <!-- Connect Button -->
+            <a class="btn btn-primary d-block d-lg-inline-block mt-4" href="#">Connect</a>
+    
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+
+	<!-- Subscribe Modal -->
+    <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeNewsletter"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content hover-parent">
+    
+          <!-- Close Button -->
+          <button type="button" class="btn btn-sm btn-icon btn-white position-absolute top-0 right-0 mt-n3 mr-n3 zindex-1"
+            data-dismiss="modal" aria-hidden="true">
+            <i class="fas fa-times btn-icon-inner"></i>
+          </button>
+    
+          <!-- Overlay -->
+          <div class="overlay overlay-advanced">
+            <div class="overlay-inner bg-cover" style="background-image: url('assets/images/karateinu-newsletter.jpg');">
+            </div>
+            <div class="overlay-inner bg-primary opacity-70 hover-opacity-80"></div>
+            <div class="overlay-inner bg-gradient-v-transparent-dark opacity-90 hover-opacity-80"></div>
+          </div>
+    
+          <!-- Modal Body -->
+          <div class="modal-body py-5 py-lg-8 px-5 px-lg-8 text-white text-center">
+    
+            <h2 id="subscribeNewsletter" class="mb-4" style="font-family: 'Reggae One';">Join the Dojo Digest</h2>
+            <p class="mb-7 mb-lg-10">
+              Stay ahead with weekly updates from the Karate Inu dojo.<br>
+              Get early access to missions, AI insights, airdrop alerts, and exclusive rewards!
+            </p>
+    
+            <div class="subscribe-form">
+              <form id="sf" name="sf" action="include/subscribe.php" method="post">
+                <div class="form-process"></div>
+                <div class="form-group">
+                  <input type="email" id="sf-email" name="sf-email" placeholder="Enter your email to join the dojo"
+                    class="form-control required">
+                </div>
+                <input type="text" id="sf-botcheck" name="sf-botcheck" value="" class="form-control d-none">
+                <button class="btn btn-soft-white btn-block" type="submit" id="sf-submit" name="sf-submit">Subscribe
+                  Now</button>
+              </form>
+              <div class="subscribe-form-result"></div>
+            </div>
+    
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Libs JS -->
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendor/popper.js/dist/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/fullPage.js/dist/scrolloverflow.min.js"></script>
+    <script src="assets/vendor/fullPage.js/dist/jquery.fullpage.min.js"></script>
+    <script src="assets/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
+    <script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="assets/vendor/jquery-form/dist/jquery.form.min.js"></script>
+    <script src="assets/vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendor/jQuery.countdown/dist/jquery.countdown.min.js"></script>
+    <script src="assets/vendor/granim.js/dist/granim.min.js"></script>
+    <script src="assets/vendor/slick/slick.min.js"></script>
+    <script src="assets/vendor/vegas/vegas.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/main.js"></script>
+	 <script>
+    const slides = [
+      {
+  image: 'assets/images/slide1.png',
+  text: `<h3>The problem: portfolios are scattered across chains and tokens.</h3>
+  The solution: Portiq unifies your on-chain assets into one intelligent view.  
+  Instantly see allocations, concentration risks, and hidden exposures.  
+  No spreadsheets. No guesswork.  
+  Portiq gives you clarity from the start.`
+},
+{
+  image: 'assets/images/slide2.png',
+  text: `<h3>Market data moves fast — but most tools only show the past.  </h3>
+  Portiq scans thousands of on-chain transactions in real time,  
+  detecting wallet flows, liquidity shifts, and volatility spikes.  
+  Get actionable alerts before markets move.  
+  Stay informed, not reactive.`
+},
+{
+  image: 'assets/images/slide3.png',
+  text: `<h3>Portiq Agents act as AI copilots for your portfolio.  </h3>
+  Configure them to watch specific sectors, tokens, or risk levels.  
+  Agents learn from your activity and simulate outcomes on demand.  
+  Test rebalancing strategies, stress-test allocations,  
+  and let data guide your next move with confidence.`
+},
+{
+  image: 'assets/images/slide4.png',
+  text: `<h3>From insights to execution — Portiq closes the loop.  </h3>
+  • Analyze: Multi-chain wallet aggregation + risk metrics.  
+  • Simulate: Backtest rebalancing and strategy performance.  
+  • Automate: Set alerts or connect APIs for real execution.  
+  Portiq is not just analytics — it's your portfolio intelligence layer.`
+}
+    ];
+
+    let currentSlide = 0;
+
+    function updateSlide() {
+      const slideImage = document.getElementById('slide-image');
+      const slideText = document.getElementById('slide-text');
+      slideImage.src = slides[currentSlide].image;
+       slideText.innerHTML = slides[currentSlide].text;
+    }
+
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      updateSlide();
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      updateSlide();
+    }
+
+    window.onload = updateSlide;
+  </script>
+
+  </body>
+</html>
